@@ -1,0 +1,63 @@
+.navbar a{
+    color: white;
+}
+.nav li a:hover{
+    background-color: violet;
+}
+.navbar-header a{
+    font-size:25px;
+}
+.navbar-custom{
+    position: absolute;
+    top: 0;
+    width:100%;
+
+}
+header{
+    height:450px;
+    padding: 150px 50px;
+    color:whitesmoke;
+}
+header h1{
+    font-size:50px;
+}
+#posts {
+    border-bottom: 1px solid lightslategrey;
+}
+#posts h1{
+    font-weight: bold;
+}
+#posts h1 a {
+    color:goldenrod;
+    text-decoration: none;
+}
+#posts h1 a:hover{
+    color:violet
+}
+.down-btn{
+    padding: 50px 0;
+
+}
+.btn {
+    border-radius: 0;
+}
+.btn-default:hover {
+    background-color: #337AB7;
+    border: 0;
+    color:white;
+}
+.nav-center {
+    float: none;
+    display:table;
+    table-layout:fixed;
+    margin: 0 auto;
+}
+.nav-center li a:hover {
+    background: white;
+
+}
+.m-col {
+    -webkit-column-count: 3;
+    -moz-column-count:3;
+    column-count:3
+}
